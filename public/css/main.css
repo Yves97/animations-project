@@ -1,0 +1,207 @@
+/*===========>VARIABLES<===========*/
+
+:root{
+    --color-white:#fff;
+    --color-black:#000;
+    --color-blue:#007bff;
+    --blue-dark:#001f42;
+    --white-fade:rgba(255, 255, 255, 0.5);
+    --color-gray:#7f848c;
+    --color-yellow:#ffc107;
+    --default-transition: all .3s;
+}
+
+/********************************/
+
+/*===========>FONTS<===========*/
+/********************************/
+
+/*===========>GENERALES<===========*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+li{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+
+/********************************/
+
+/*===========>INDEX PAGE<===========*/
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.384)),url('../images/sq_img_7.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+
+}
+
+.navbar{
+    background: transparent !important;
+    padding: 1.8rem;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+.nav-item{
+    margin-right: 2rem;
+}
+
+.navbar > a, .nav-link{
+    font-size: 1.8rem;
+    color: var(--white-fade) !important;
+    transition: var(--default-transition);
+}
+
+.nav-link:hover{
+    color: var(--color-white) !important;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: var(--color-white);
+}
+
+.header-text h1{
+    text-transform: uppercase;
+    font-size: 7rem;
+    margin-bottom: 2.5rem;
+}
+
+.header-text p{
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+.header-text button{
+    cursor: pointer;
+    padding: 1rem 4rem;
+    color: var(--color-white);
+    border: 1.5px solid var(--color-white);
+    border-radius: 7px;
+    background: transparent;
+    transition: var(--default-transition);
+}
+
+.header-text button:hover{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+#about,#statistics{
+    padding: 7rem;
+}
+
+.about-content{
+    padding: 2rem;
+}
+
+.about-content small{
+    color: var(--color-blue);
+}
+
+.about-content h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 2rem 0 2rem;
+}
+
+.about-content p{
+    color: var(--color-gray);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.about-content span::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    background:var(--color-yellow);
+    transition:var(--default-transition);
+}
+
+.about-content span:hover::before{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+.about-content span{
+    position: relative;
+    font-size: 1.3rem;
+    color: var(--color-black);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-content-2{
+    position: relative;
+}
+
+.box-img{
+    width: 25rem;
+    height: 25rem;
+}
+
+.box-img > img{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.425);
+}
+
+.box-2{
+    position: absolute;
+    left: 35%;
+    bottom: -25%;
+}
+
+.statistic-box{
+    padding: 1rem;
+    text-align: center;
+}
+
+.statistic-box h3{
+    font-size: 4rem;
+    color: var(--color-gray);
+    margin-bottom: 2.5rem;
+}
+
+.statistic-box h3 span{
+    margin-left: 1rem;
+    color: var(--color-blue) !important;
+}
+
+.statistic-box p{color: var(--color-gray);}
+
+
+/********************************/
