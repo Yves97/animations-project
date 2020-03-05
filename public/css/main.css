@@ -7,6 +7,7 @@
     --blue-dark:#001f42;
     --white-fade:rgba(255, 255, 255, 0.5);
     --color-gray:#7f848c;
+    --color-gray-dark:#343a40;
     --color-gray-fade:#f8f9fa;
     --color-yellow:#ffc107;
     --default-transition: all .3s;
@@ -215,7 +216,7 @@ header{
     font-size: 2.5rem;
 }
 
-.box-service{
+.box-service, .box-portfolio{
     text-align: center;
     padding: 1.3rem;
     background: var(--color-white);
@@ -246,4 +247,27 @@ header{
 #services button:hover{
     background: #007bffe0;
 }
+
+.box-filter{
+    text-align: center;
+}
+
+.box-filter button{
+    cursor: pointer;
+    border-radius: 7px;
+    margin-right: 1.3rem;
+    padding: .5rem 1.8rem;
+    background: var(--color-gray-fade);
+    border: none;
+    color: var(--color-gray-dark);
+    text-transform: uppercase;
+    transition: var(--default-transition);
+}
+
+.box-filter button:hover{
+    background: var(--color-blue);
+    color: var(--color-white);
+}
+
+
 /********************************/

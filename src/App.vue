@@ -167,7 +167,19 @@
     <section id="portfolio">
       <p>Awesome Works</p>
       <h3>Portfolio</h3>
-
+      <div class="box-filter">
+        <button>all</button>
+        <button>web</button>
+        <button>design</button>
+        <button>brand</button>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="box-portfolio">
+            
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
