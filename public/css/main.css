@@ -7,6 +7,7 @@
     --blue-dark:#001f42;
     --white-fade:rgba(255, 255, 255, 0.5);
     --color-gray:#7f848c;
+    --color-gray-fade:#f8f9fa;
     --color-yellow:#ffc107;
     --default-transition: all .3s;
 }
@@ -99,7 +100,7 @@ header{
     margin-bottom: 3rem;
 }
 
-.header-text button{
+.header-text button, #services button{
     cursor: pointer;
     padding: 1rem 4rem;
     color: var(--color-white);
@@ -114,7 +115,7 @@ header{
     color: var(--color-black);
 }
 
-#about,#statistics{
+#about,#statistics,#services, #portfolio{
     padding: 7rem;
 }
 
@@ -122,7 +123,7 @@ header{
     padding: 2rem;
 }
 
-.about-content small{
+.about-content small,#services p:first-child,#portfolio p:first-child{
     color: var(--color-blue);
 }
 
@@ -203,5 +204,46 @@ header{
 
 .statistic-box p{color: var(--color-gray);}
 
+#services{
+    background: var(--color-gray-fade);
+}
 
+#services p, #services h3,#portfolio p, #portfolio h3{text-align: center;}
+
+#services h3, #portfolio h3{
+    margin: 2rem 0 4rem;
+    font-size: 2.5rem;
+}
+
+.box-service{
+    text-align: center;
+    padding: 1.3rem;
+    background: var(--color-white);
+    transition: var(--default-transition);
+    margin-bottom: 3rem;
+}
+
+.box-service:hover{
+    transform: translateY(-5%);
+    box-shadow: 0px 13px 25px -10px rgb(173, 173, 173);
+}
+
+.box-service  span{
+    font-size: 4rem;
+}
+
+.box-service h3{
+    font-size: 2rem;
+    margin-bottom:2rem;
+    color: var(--color-blue);
+}
+
+#services button{
+    background: var(--color-blue);
+    transition: var(--default-transition);
+}
+
+#services button:hover{
+    background: #007bffe0;
+}
 /********************************/

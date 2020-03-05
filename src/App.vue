@@ -106,6 +106,69 @@
         </div>
       </div>
     </section>
+    <section id="services">
+      <div class="container">
+        <p>Our Services</p>
+        <h3>Services</h3>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="box-service">
+              <span>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
+              </span>
+              <h3>Graphic design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime quis adipisci dolor itaque sed, ipsum quibusdam inventore earum, possimus iste autem nihil. Deleniti, dolor deserunt velit officia possimus quibusdam?</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="box-service">
+              <span>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
+              </span>
+              <h3>Graphic design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime quis adipisci dolor itaque sed, ipsum quibusdam inventore earum, possimus iste autem nihil. Deleniti, dolor deserunt velit officia possimus quibusdam?</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="box-service">
+              <span>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
+              </span>
+              <h3>Graphic design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime quis adipisci dolor itaque sed, ipsum quibusdam inventore earum, possimus iste autem nihil. Deleniti, dolor deserunt velit officia possimus quibusdam?</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="box-service">
+              <span>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
+              </span>
+              <h3>Graphic design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime quis adipisci dolor itaque sed, ipsum quibusdam inventore earum, possimus iste autem nihil. Deleniti, dolor deserunt velit officia possimus quibusdam?</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <div class="box-service">
+              <span>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
+              </span>
+              <h3>Graphic design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime quis adipisci dolor itaque sed, ipsum quibusdam inventore earum, possimus iste autem nihil. Deleniti, dolor deserunt velit officia possimus quibusdam?</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="#">
+            <button>View All services</button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <p>Awesome Works</p>
+      <h3>Portfolio</h3>
+
+    </section>
   </div>
 </template>
 
