@@ -167,17 +167,59 @@
     <section id="portfolio">
       <p>Awesome Works</p>
       <h3>Portfolio</h3>
-      <div class="box-filter">
-        <button>all</button>
-        <button>web</button>
-        <button>design</button>
-        <button>brand</button>
+      <div class="box-filter filters-button-group">
+        <button class="button is-checked" data-filter="*">all</button>
+        <button class="button" data-filter=".metal">web</button>
+        <button class="button" data-filter=".transition">design</button>
+        <button class="button"  data-filter=".alkali, .alkaline-earth">brand</button>
       </div>
-      <div class="row">
+      <div class="row isot">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio">
-              <img src="../public/images/sq_img_1.jpg" class="img-fluid" alt="">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_1.jpg" class="img-fluid web" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <a href="#">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_2.jpg" class="img-fluid web" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+          <a href="#">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_3.jpg" class="img-fluid design" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <a href="#">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_4.jpg" class="img-fluid brand" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <a href="#">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_5.jpg" class="img-fluid brand" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <a href="#">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_6.jpg" class="img-fluid web" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <a href="#">
+            <div class="box-portfolio element-item">
+              <img src="../public/images/sq_img_7.jpg" class="img-fluid" alt="">
             </div>
           </a>
         </div>

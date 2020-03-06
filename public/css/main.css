@@ -264,6 +264,7 @@ header{
     color: var(--color-gray-dark);
     text-transform: uppercase;
     transition: var(--default-transition);
+    outline: none;
 }
 
 .box-filter button:hover{
@@ -271,8 +272,17 @@ header{
     color: var(--color-white);
 }
 
+.button.is-checked {
+    background-color: #28F;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
 .box-portfolio{
-    height: 30rem;
+    margin-bottom: 2.5rem;
 }
 
 
