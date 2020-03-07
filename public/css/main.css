@@ -322,22 +322,9 @@ header{
     cursor: pointer;
 }
 
-.main-box_blog{
-    height: 30rem;
-    display: flex;
-    flex-flow: row wrap;
+footer{
+    padding: 10rem 0;
 }
 
-.main-box_blog img{
-    flex: 1 0 25%;
-    height: 20rem;
-}
-
-.blog-content{
-    height: 20rem;
-    flex: 2 0 75%;
-    padding: 1.5rem;
-    background: var(--color-gray-fade);
-}
 
 /********************************/
