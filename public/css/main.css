@@ -324,7 +324,28 @@ header{
 
 footer{
     padding: 10rem 0;
+    background-color: var(--blue-dark);
 }
 
+.footer-content p{
+    color: var(--color-white);
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.footer-content ul li{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer-content ul li a{
+    color: var(--color-blue);
+    transition: var(--default-transition);
+}
+
+.footer-content ul li a:hover{
+    color: var(--color-white);
+    text-decoration: underline;
+}
 
 /********************************/
