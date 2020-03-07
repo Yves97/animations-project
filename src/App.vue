@@ -245,6 +245,34 @@
         </div>
       </div>
     </section>
+    <section id="blog">
+      <p>Awesome Works</p>
+      <h3>Portfolio</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="main-box_blog">
+                <img src="../public/images/sq_img_1.jpg" class="img-fluid" alt="">
+                <div class="blog-content">
+                  <h3>Undefined: The Third Boolean Values</h3>
+                  <hr>
+                  <div class="blog-info">
+                    <span>
+                      <i class="fa fa-user" aria-hidden="true"></i> Yves Kouadio
+                    </span>
+                    <span>
+                      <i class="fa fa-calendar" aria-hidden="true"></i> april 8th
+                    </span>
+                    <span>
+                      <i class="fa fa-file-text" aria-hidden="true"></i> 2
+                    </span>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

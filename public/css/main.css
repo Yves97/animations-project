@@ -116,7 +116,7 @@ header{
     color: var(--color-black);
 }
 
-#about,#statistics,#services, #portfolio,#agency{
+#about,#statistics,#services, #portfolio,#agency, #blog{
     padding: 7rem;
 }
 
@@ -124,7 +124,7 @@ header{
     padding: 2rem;
 }
 
-.about-content small,#services p:first-child,#portfolio p:first-child{
+.about-content small,#services p:first-child,#portfolio p:first-child, #blog p:first-child{
     color: var(--color-blue);
 }
 
@@ -209,9 +209,9 @@ header{
     background: var(--color-gray-fade);
 }
 
-#services p, #services h3,#portfolio p, #portfolio h3{text-align: center;}
+#services p, #services h3,#portfolio p, #portfolio h3,#blog p,#blog h3{text-align: center;}
 
-#services h3, #portfolio h3{
+#services h3, #portfolio h3,#blog h3{
     margin: 2rem 0 4rem;
     font-size: 2.5rem;
 }
@@ -322,6 +322,22 @@ header{
     cursor: pointer;
 }
 
+.main-box_blog{
+    height: 30rem;
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.main-box_blog img{
+    flex: 1 0 25%;
+    height: 20rem;
+}
+
+.blog-content{
+    height: 20rem;
+    flex: 2 0 75%;
+    padding: 1.5rem;
+    background: var(--color-gray-fade);
+}
 
 /********************************/
