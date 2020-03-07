@@ -167,61 +167,81 @@
     <section id="portfolio">
       <p>Awesome Works</p>
       <h3>Portfolio</h3>
-      <div class="box-filter filters-button-group">
-        <button class="button is-checked" data-filter="*">all</button>
-        <button class="button" data-filter=".metal">web</button>
-        <button class="button" data-filter=".transition">design</button>
-        <button class="button"  data-filter=".alkali, .alkaline-earth">brand</button>
+      <div class="box-filter">
+        <button>all</button>
+        <button>web</button>
+        <button>design</button>
+        <button>brand</button>
       </div>
-      <div class="row isot">
+      <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio element-item">
-              <img src="../public/images/sq_img_1.jpg" class="img-fluid web" alt="">
+            <div class="box-portfolio">
+              <span class="bg-black"></span>
+              <img src="../public/images/sq_img_1.jpg" class="img-fluid " alt="">
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio element-item">
-              <img src="../public/images/sq_img_2.jpg" class="img-fluid web" alt="">
+            <div class="box-portfolio">
+              <img src="../public/images/sq_img_2.jpg" class="img-fluid " alt="">
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
           <a href="#">
-            <div class="box-portfolio element-item">
+            <div class="box-portfolio">
               <img src="../public/images/sq_img_3.jpg" class="img-fluid design" alt="">
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio element-item">
+            <div class="box-portfolio">
               <img src="../public/images/sq_img_4.jpg" class="img-fluid brand" alt="">
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio element-item">
+            <div class="box-portfolio">
               <img src="../public/images/sq_img_5.jpg" class="img-fluid brand" alt="">
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio element-item">
-              <img src="../public/images/sq_img_6.jpg" class="img-fluid web" alt="">
+            <div class="box-portfolio">
+              <img src="../public/images/sq_img_6.jpg" class="img-fluid " alt="">
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <a href="#">
-            <div class="box-portfolio element-item">
+            <div class="box-portfolio">
               <img src="../public/images/sq_img_7.jpg" class="img-fluid" alt="">
             </div>
           </a>
+        </div>
+      </div>
+    </section>
+    <section id="agency">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="box-video">
+              <button><i class="fa fa-play-circle" aria-hidden="true"></i></button>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="agency-content">
+              <h3>WE ARE WEB AGENCY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni architecto odio corrupti harum explicabo, enim a dolor beatae atque aliquid eius. Pariatur saepe illo molestiae alias sint. Eligendi, soluta ipsum?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam fugit labore obcaecati numquam veniam quidem rerum blanditiis molestiae, sequi doloremque dolores, ullam hic soluta iste alias, in et voluptas aut.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -230,6 +250,6 @@
 
 <script>
 export default {
-  
+
 }
 </script>

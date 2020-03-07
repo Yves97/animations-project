@@ -116,7 +116,7 @@ header{
     color: var(--color-black);
 }
 
-#about,#statistics,#services, #portfolio{
+#about,#statistics,#services, #portfolio,#agency{
     padding: 7rem;
 }
 
@@ -233,7 +233,7 @@ header{
     font-size: 4rem;
 }
 
-.box-service h3{
+.box-service h3,.agency-content h3{
     font-size: 2rem;
     margin-bottom:2rem;
     color: var(--color-blue);
@@ -272,18 +272,56 @@ header{
     color: var(--color-white);
 }
 
-.button.is-checked {
-    background-color: #28F;
-}
-
-.button.is-checked {
+.box-filter button.active{
+    background: var(--color-blue);
     color: white;
-    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.336);
 }
 
 .box-portfolio{
     margin-bottom: 2.5rem;
+    position: relative;
 }
+
+.box-portfolio::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.438);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--default-transition);
+}
+
+.box-portfolio:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+.box-video{
+    background:var(--color-blue);
+    position: relative;
+    min-height: 40rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+    border-radius: 1rem;
+}
+
+.box-video button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    background: var(--color-blue);
+    color: var(--color-white);
+    font-size: 5rem;
+    outline: none;
+    cursor: pointer;
+}
+
 
 
 /********************************/
