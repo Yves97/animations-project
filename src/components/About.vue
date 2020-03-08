@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h3>About</h3>
+        <about-content></about-content>
+        <app-footer></app-footer>
     </div>
 </template>
 
