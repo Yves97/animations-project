@@ -13,10 +13,10 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#" @click.prevent="activeView='app-about'">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portofolio</a>
+              <a class="nav-link" href="#" @click.prevent="activeView='app-portfolio'">Portofolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pages</a>
@@ -327,11 +327,24 @@
         </div>
       </div>
     </footer>
+    <keep-alive>
+      <component :is="activeView"></component>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+  // import About from './components/About'
+  export default {
+    data(){
+      return{
+        activeView : 'app-about'
+      }
+    },
+    methods: {
+      // wow(){
+      //   console.log('yves')
+      // }
+    },
+  }
 </script>
