@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <nav class="navbar navbar-expand-sm">
+      <!-- <nav class="navbar navbar-expand-sm">
         <a class="navbar-brand" href="#">Scenic</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,8 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
+      <app-navbar :activeView="activeView"></app-navbar>
       <div class="header-text">
         <h1>we are scenic</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, enim obcaecati autem vel atque incidunt dolorum libero aspernatur? Officiis reiciendis optio maxime asperiores fugiat quod, animi a laboriosam doloribus id?</p>
@@ -42,17 +43,15 @@
 </template>
 
 <script>
-  // import About from './components/About'
+  import Navbar from './components/Navbar.vue'
   export default {
     data(){
       return{
-        activeView : 'app-about'
+        activeView : 'app-home'
       }
     },
-    methods: {
-      // wow(){
-      //   console.log('yves')
-      // }
-    },
+    components:{
+      'app-navbar': Navbar
+    }
   }
 </script>
