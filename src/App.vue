@@ -1,7 +1,12 @@
 <template>
   <div>
-    <header>
-      <nav class="navbar navbar-expand-sm">
+    <transition
+      enter-active-class="animated fadeIn"
+      leave-active-class="animated fadeIn"
+      appear
+    >
+      <header v-if="activeView">
+        <nav class="navbar navbar-expand-sm">
             <a class="navbar-brand" href="#">Scenic</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -27,14 +32,15 @@
                 </ul>
             </div>
         </nav>
-      <div class="header-text">
-        <h1>we are scenic</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, enim obcaecati autem vel atque incidunt dolorum libero aspernatur? Officiis reiciendis optio maxime asperiores fugiat quod, animi a laboriosam doloribus id?</p>
-        <a href="#">
-          <button>Get In touch</button>
-        </a>
-      </div>
+        <div class="header-text">
+          <h1>we are scenic</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, enim obcaecati autem vel atque incidunt dolorum libero aspernatur? Officiis reiciendis optio maxime asperiores fugiat quod, animi a laboriosam doloribus id?</p>
+          <a href="#">
+            <button>Get In touch</button>
+          </a>
+        </div>
     </header>
+    </transition>
     <keep-alive>
       <component :is="activeView"></component>
     </keep-alive>

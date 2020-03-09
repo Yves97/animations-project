@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h3>Portfolio</h3>
+        <portfolio-content></portfolio-content>
+        <app-footer></app-footer>
     </div>
 </template>
 
