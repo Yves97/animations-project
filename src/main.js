@@ -1,17 +1,19 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import About from './components/About.vue'
-import Portfolio from './components/Portfolio.vue'
-import Home from './components/Home.vue'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Home from './components/Home'
 import Footer from './components/Footer'
 import AboutContent from './components/About-content'
+import AgencyContent from './components/Agency-content'
 
 Vue.component('app-about',About)
 Vue.component('app-portfolio',Portfolio)
 Vue.component('app-home',Home)
 Vue.component('app-footer',Footer)
 Vue.component('about-content',AboutContent)
+Vue.component('agency-content',AgencyContent)
 
 Vue.config.productionTip = false
 

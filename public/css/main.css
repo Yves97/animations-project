@@ -116,7 +116,7 @@ header{
     color: var(--color-black);
 }
 
-#about,#statistics,#services, #portfolio,#agency, #blog{
+#about,#statistics,#services, #portfolio,#agency, #blog,#team{
     padding: 7rem;
 }
 
@@ -352,3 +352,13 @@ footer{
 /********************************/
 
 /*===========>ABOUT PAGE<===========*/
+
+
+#team h3, .member-team{
+    margin: 2rem 0;
+}
+
+#team small{
+    color: var(--color-gray);
+    font-style: italic;
+}
